@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-tree-task/static/css/main.5e44c6f8.css",
+    "main.js": "/react-tree-task/static/js/main.5245cf42.js",
+    "index.html": "/react-tree-task/index.html",
+    "main.5e44c6f8.css.map": "/react-tree-task/static/css/main.5e44c6f8.css.map",
+    "main.5245cf42.js.map": "/react-tree-task/static/js/main.5245cf42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e44c6f8.css",
+    "static/js/main.5245cf42.js"
+  ]
+}
