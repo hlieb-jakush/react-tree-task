@@ -1,0 +1,40 @@
+.treeItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.treeItem_body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.treeItem_content {
+    display: flex;
+    flex-direction: column;  
+}
+
+.treeItem_panel {
+    display: flex;
+    align-items: stretch;
+}
+
+.treeItem_name {
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .treeItem {
+        padding: 0.5rem 1rem;
+}
+    
+    .treeItem_panel {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,35 @@
+.button {
+    padding: 0.1rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--color2);
+    font-weight: 400;
+    user-select: none;
+    border: 3px solid transparent;
+    background-color: var(--color1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: var(--color1__darken);
+    background-color: var(--color1__darken);
+}
+
+.button:focus {
+    border-color: var(--color1__darken);
+    background-color: var(--color1__darken);
+}
+    
+.button:active {
+    border-color: var(--color1__lighten);
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: 0.2rem 0.9rem;
+        font-size: 1rem;
+        line-height: 1.5;
+
+    }
+}
