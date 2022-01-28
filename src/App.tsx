@@ -8,11 +8,6 @@ import { TreeItem } from './components/TreeItem/TreeItem'
 import Button from './components/Button/Buttton'
 import './App.css'
 
-interface ProviderValue {
-  state: State,
-  dispatch: React.Dispatch<any>
-}
-
 
 function App() {
 
@@ -71,7 +66,7 @@ function App() {
     },
   ]
 
-  const treeWalker = (node: Node) => {
+  const treeWalker = (node: Node | any) => {
     if (!node) return
     if (!Array.isArray(node) && !node.children) {
       return <TreeItem name={node.name} key={node.id} id={node.id} />
